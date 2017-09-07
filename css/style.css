@@ -1,0 +1,127 @@
+/* General rules start */
+.contenair {
+    width: 1170px;
+    margin: auto;
+}
+hr{
+    display: inline-block;
+    width: 100px;
+}
+/* End General */
+     /* start header */
+header {
+    background-color: #BCBCBC;
+    padding:10px;
+}
+header h3 {
+    padding-left: 5%;
+    color:#000;
+    margin: 0;
+}
+header span {
+    color:#fff;
+    text-transform: uppercase;
+}
+     /* end header */
+    /* start content */
+.content{
+        background-image:url(bbb.jpg);
+        background-size:  cover ;
+        height:600px; 
+        margin: 0;
+}
+.content-main{
+    padding: 10% 0 0 37% ;
+}
+.content .content-main span {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 17%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color:#fff;
+}
+/*
+.content-sub .h-left {
+    margin-left:5%;
+    color: #000;
+    margin-left: 13px;
+    width: 134px;
+}
+.content-sub .h-right {
+    margin-left: -33%;
+    margin-top: 60px;
+    width: 134px;
+}
+*/
+.content input{
+    padding: 5px;
+    margin: 10px;
+    width: 270px;
+    display: block;
+    /* border-bottom: 1px solid black; */
+    background: none;
+    border-radius: 0 0 5px 0;
+    border-style: hidden;
+    border-bottom: 1px solid white;
+    color:#fff
+}
+.content input[type="submit"] {
+    border-style:solid;
+    border-radius: 15px 0 15px 0;
+    border:1px solid white;
+    margin:18px 92px;
+    width: 100px;
+    font-size: 13px;
+        font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+#a {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.content h3 {
+    font-size: 45px;
+    color: lemonchiffon;
+    margin: 24px 100px;
+    letter-spacing: 3px;
+    line-height: 23px;
+    font-family: -webkit-body;
+    margin-top: 0;
+}
+.content input[type="submit"]:hover{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border:1px solid #62E8EA;
+    color:#0C96B5
+}
+.content .content-main .signup {
+    padding: 16px 115px 15px 60px;
+    background-color: #62E8EA;
+    color: #222;
+        margin: 72px 0 0 51px;
+        margin-top: 25px;
+        font-size: 16.5px;
+        text-align: center;
+}
+.content .content-main .signup:hover{
+    background-color: #fff;
+    color: #62E8EA;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border:1px solid #62E8EA;
+}
+    /* End content */
+    /* start footer */
+footer{
+        background-color: #303030;
+}
+footer h5 {
+    margin-top:0px; 
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+}
+   /* end footer */
